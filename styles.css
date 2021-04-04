@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+body {
+    font-size: 1.125rem;
+    background-color: #55827E;
+}
+
+header {
+    background-color: #235753;
+    margin-bottom: 3rem;
+}
+
+h1 {
+    font-family:Helvetica, Arial, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: #dfdfdf;
+    padding: 2.5rem;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-decoration: underline;
+    background-color: #a8a8a8;
+    margin: 2rem .8rem;
+    padding: .5rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px;
+    
+}
+
+h3 {
+    margin-bottom: 1.2rem;
+}
+
+footer {
+    width: 100%;
+    background-color: #235753; 
+    text-align: center;
+    padding: 2rem;
+    margin-top: 3rem;
+    color:#dfdfdf
+}
+
+
+.container  {
+    width: 60vw;
+    height: 130vh;
+    margin: 0 auto;
+    background-color: #CCCCCC;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 3px;;
+    overflow: auto;
+}
+
+.font-col-one, 
+.font-col-two {
+    display: inline-block;
+    margin: 0 1rem 2rem 1rem;
+}
+
+.font-col-three,
+.tstyles-col-one,
+.tstyles-col-two,
+.tstyles-col-three {
+    margin: 0 1rem 2rem 1rem;
+}
+
+
+
+/* color styles */
+
+.yellow,
+.pink,
+.green,
+.pink-shade,
+.green-shade {
+    width: 28rem;
+    text-align: center;
+    padding: .5rem;
+    margin: 2rem 0 0 1rem;
+}
+
+.yellow, .pink,
+.pink-shade,
+.green-shade {
+    display: inline-block;
+}
+
+.green {
+    background-color: #1DCCBD;
+}
+
+.yellow {
+    background-color: #CCAE2F;
+}
+
+.pink {
+    background-color: #CC31CC;
+}
+
+.pink-shade {
+    background-color: #85457E;
+}
+
+.green-shade {
+    background-color: #55827E;
+}
+
+/* Fonts */
+
+.expletus-reg {
+    font-family: 'Expletus Sans', cursive;
+    font-weight: 400;
+}
+
+.expletus-bold {
+    font-family: 'Expletus Sans', cursive;
+    font-weight: 700;
+}
+
+.expletus-italic {
+    font-family: 'Expletus Sans', cursive;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.open-reg {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.open-bold {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.open-italic {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.work-reg {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+.work-bold {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+}
+
+.work-italic {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.tstyles-title {
+    font-size: 3rem;
+    color:#000000;
+    text-align: left;
+    padding: .5rem 0;
+    margin-bottom: .5rem;
+
+}
+
+.tstyles-h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: underline;
+    color:#000000;
+    text-align: left;
+    padding: .5rem 0;
+    margin-bottom: .5rem;
+}
+
+.p-title {
+    padding: .5rem 0;
+    margin-bottom: .5rem;
+}
+
+
+/* Buttons */
+
+.button-one {
+    width: 8rem;
+    padding: .7rem 0;
+    margin-left: 1rem;
+    border-radius: 10px;
+    background-color: #CCAE2F;
+}
+
+.button-two {
+    width: 8rem;
+    padding: .7rem 0;
+    margin-left: 1rem;
+    border-radius: 30px;
+    background-image: linear-gradient(145deg,#70d89f, #bbde7a, #d6be59)
+}
+
+.button-two:hover {
+    color: #cc31cc;
+}                    
+
+.button-two:active {
+    background-image: linear-gradient(170deg,#D6BE59, #bbde7a, #70d89f);
+}
+
+.button-three {
+    width: 8rem;
+    padding: .7rem 0;
+    margin-left: 1rem;
+    border-radius: 10px;
+    background-color: #727272;
+    color: #000000;
+}
+
+
+
