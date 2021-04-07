@@ -227,3 +227,26 @@ footer {
     color: #000000;
 }
 
+@media only screen and (max-width: 690px) {
+
+    .green, 
+    .yellow, 
+    .pink, 
+    .pink-shade, 
+    .green-shade {
+        width: 25rem;
+    }
+}
+
+@media only screen and (max-width: 625px) {
+
+    .green, 
+    .yellow, 
+    .pink, 
+    .pink-shade, 
+    .green-shade {
+        width: 22rem;
+    }
+
+}
+
