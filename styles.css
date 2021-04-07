@@ -85,20 +85,22 @@ footer {
 .green,
 .pink-shade,
 .green-shade {
-    width: 28rem;
     text-align: center;
     padding: .5rem;
     margin: 2rem 0 0 1rem;
 }
 
 .yellow, .pink,
+.green,
 .pink-shade,
 .green-shade {
     display: inline-block;
+    min-width: 25rem;
 }
 
 .green {
     background-color: #1DCCBD;
+    max-width: 25rem;
 }
 
 .yellow {
@@ -227,26 +229,27 @@ footer {
     color: #000000;
 }
 
-@media only screen and (max-width: 690px) {
+@media only screen and (max-width: 1211px) {
 
-    .green, 
-    .yellow, 
-    .pink, 
-    .pink-shade, 
-    .green-shade {
-        width: 25rem;
-    }
-}
-
-@media only screen and (max-width: 625px) {
-
-    .green, 
-    .yellow, 
-    .pink, 
-    .pink-shade, 
-    .green-shade {
-        width: 22rem;
+    .container {
+        width: auto;
+        margin-left: 3rem;
+        margin-right: 3rem;
     }
 
+
 }
+
+@media only screen and (max-width: 516px) {
+
+    .green,
+    .yellow,
+    .pink,
+    .pink-shade,
+    .green-shade {
+        max-width: auto;
+    }
+
+}
+
 
