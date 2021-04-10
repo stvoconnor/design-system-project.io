@@ -11,6 +11,8 @@ body {
 }
 
 header {
+    width: 100%;
+    height: auto;
     background-color: #235753;
     margin-bottom: 3rem;
 }
@@ -32,7 +34,7 @@ h2 {
     font-size: 2rem;
     text-decoration: underline;
     background-color: #a8a8a8;
-    margin: 2rem .8rem;
+    margin: 2rem 1rem;
     padding: .5rem;
     border-radius: 5px;
     box-shadow: 2px 2px 5px;
@@ -85,22 +87,16 @@ footer {
 .green,
 .pink-shade,
 .green-shade {
+    display: inline-block;
     text-align: center;
+    width: 25rem;
     padding: .5rem;
-    margin: 2rem 0 0 1rem;
+    margin: 0 2rem 1.5rem .5rem;
 }
 
-.yellow, .pink,
-.green,
-.pink-shade,
-.green-shade {
-    display: inline-block;
-    min-width: 25rem;
-}
 
 .green {
     background-color: #1DCCBD;
-    max-width: 25rem;
 }
 
 .yellow {
@@ -200,6 +196,7 @@ footer {
     width: 8rem;
     padding: .7rem 0;
     margin-left: 1rem;
+    margin-bottom: 1rem;
     border-radius: 10px;
     background-color: #CCAE2F;
 }
@@ -229,27 +226,30 @@ footer {
     color: #000000;
 }
 
-@media only screen and (max-width: 1211px) {
+@media only screen and (max-width: 610px) {
 
-    .container {
-        width: auto;
-        margin-left: 3rem;
-        margin-right: 3rem;
+.container {
+    width: 100%;
+    box-shadow: none;
     }
 
+.yellow,
+.pink,
+.green,
+.pink-shade,
+.green-shade {
+    width: 95%;
 
 }
 
-@media only screen and (max-width: 516px) {
-
-    .green,
-    .yellow,
-    .pink,
-    .pink-shade,
-    .green-shade {
-        max-width: auto;
-    }
-
 }
+
+@media only screen and (max-wdith: 615px) {
+
+
+
+} 
+
+
 
 
